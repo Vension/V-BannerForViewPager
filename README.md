@@ -4,7 +4,7 @@ ViewPager使用pageTransformer实现banner轮播动画效果
 - gif
 
 <div style="display:flex;">
-   <img alt="image" src="https://github.com/Vension/V-PaletteTakColor/blob/master/gif/gif.gif" >
+   <img alt="image" src="https://github.com/Vension/V-BannerForViewPager/blob/master/gif/GIF.gif" >
  </details>
  
  ## LICENSE
