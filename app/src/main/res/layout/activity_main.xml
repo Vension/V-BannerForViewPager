@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clipChildren="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tips_HorizontalStackTransformerWithRotation"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_h"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tips_VerticalStackPageTransformerWithRotation"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_v"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tips_StackPageTransformer"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_s"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tip_banner效果"/>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/my_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:clipToPadding="false"
+                android:clipChildren="false" />
+        <CheckBox
+            android:id="@+id/cb_loop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启无限轮播"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
